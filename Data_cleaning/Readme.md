@@ -133,8 +133,8 @@ In case of errors, the API will respond with appropriate HTTP status codes and e
 
 ```bash
 {
-  200 : Requested data fetched Successfully
-  404 : Requested data not found
+  200 : Case data fetched Successfully
+  404 : Case data not found
 }
 
 ```
@@ -143,9 +143,9 @@ In case of errors, the API will respond with appropriate HTTP status codes and e
 
 ```bash
 {
-  200 : Case data added Successfully
+  201 : Case data added Successfully
   400 : Invalid data provided 
-  500 : Exception Occured 
+  500 : Exception Occurred
 }
 
 ```
