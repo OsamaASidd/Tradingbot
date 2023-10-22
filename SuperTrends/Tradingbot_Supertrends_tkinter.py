@@ -1,5 +1,4 @@
 import ccxt
-import config
 import schedule
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -15,7 +14,7 @@ from datetime import datetime
 import pandas as pd
 from PIL import Image, ImageTk
 
-from IPython.display import clear_output
+#from IPython.display import clear_output
 import matplotlib
 matplotlib.use('Agg')
 pd.set_option('display.max_rows', None)
@@ -107,7 +106,7 @@ class TradingBotGUI:
             self.show_trend(df)            
             
             #df.to_csv("CrpytoBot.csv")
-            clear_output(wait = True)
+            #clear_output(wait = True)
             
             p2 = Image.open("supertrend_plot.png")
             resized_image2 = p2.resize((350,200))
